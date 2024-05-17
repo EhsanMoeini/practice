@@ -17,11 +17,11 @@ while (time != `-1`) {
       if (timeArrayLength >= 3) {
         hour += +timeArray[timeArrayLength - 3];
       }
-      if (second >= 60) {
+      while (second >= 60) {
         second -= 60;
         minutes++;
       }
-      if (minutes >= 60) {
+      while (minutes >= 60) {
         minutes -= 60;
         hour++;
       }
