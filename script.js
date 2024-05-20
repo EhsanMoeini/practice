@@ -33,4 +33,4 @@ while (time != `-1`) {
     "2:36:24"
   );
 }
-console.log(` the some of time is ${hour} : ${minutes} : ${second}`);
+alert(` the some of time is ${hour} : ${minutes} : ${second}`);
