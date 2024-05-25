@@ -33,5 +33,4 @@ while (time != `-1`) {
     "2:36:24"
   );
 }
-document.querySelector('.text').textContent = (` the some of time is 
-${hour} : ${minutes} : ${second}`);
+document.querySelector('.text').textContent = (` the some of time is ${hour} : ${minutes} : ${second}`);
