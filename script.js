@@ -1,10 +1,7 @@
 "use strict";
 
 const fixNumber = function (number) {
-  if (String(number).length < 2) {
-    return "0" + String(number);
-  } else {
-    return number;
+    return String(number).padStart(2 , 0);
   }
 };
 
