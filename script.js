@@ -1,3 +1,13 @@
+"use strict";
+
+const fixNumber = function (number) {
+  if (String(number).length < 2) {
+    return "0" + String(number);
+  } else {
+    return number;
+  }
+};
+
 let second = 0;
 let minutes = 0;
 let hour = 0;
@@ -33,4 +43,6 @@ while (time != `-1`) {
     "2:36:24"
   );
 }
-document.querySelector('.text').textContent = (` the some of time is ${hour} : ${minutes} : ${second}`);
+document.querySelector(".text").textContent = ` the some of time is ${fixNumber(
+  hour
+)} : ${fixNumber(minutes)} : ${fixNumber(second)}`;
