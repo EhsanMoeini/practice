@@ -1,8 +1,7 @@
 "use strict";
 
 const fixNumber = function (number) {
-    return String(number).padStart(2 , 0);
-  }
+  return String(number).padStart(2, 0);
 };
 
 let second = 0;
